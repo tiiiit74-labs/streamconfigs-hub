@@ -1,13 +1,13 @@
 {
   "name": "StreamConfigs Hub",
-  "short_name": "StreamConfigs",
+  "short_name": "ConfigsHub",
   "description": "Gestionnaire local de configurations streaming",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#050816",
-  "theme_color": "#050816",
+  "theme_color": "#f5a623",
   "icons": [
     {
       "src": "icon-192.png",
@@ -18,6 +18,12 @@
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
